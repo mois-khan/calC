@@ -1,0 +1,107 @@
+body {
+    font-size: 15pt;
+    background-color: #191C3A;
+    
+}
+
+.main {
+    width: 210px;
+    background-color: #C4C6FF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5px;
+    grid-gap: 4px;
+}
+
+.btn, .enter {
+    border: none;
+    background-color: #4C539F;
+    padding: 20px 18px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: #414468;
+}
+
+
+.display-box {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#display-field {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #D6D8FF;
+    outline: none;
+    border: none;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 90%;
+    
+}
+
+#clear {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+#plus {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#minus {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#asterisk {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#divide {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#zero {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#equal {
+    grid-row: 5;
+    grid-column: 3/5;
+    background-color: #808BFF;
+    font-size: 15px;
+}
+
+body h3 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #303676;
+}
